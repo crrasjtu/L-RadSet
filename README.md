@@ -216,7 +216,7 @@ We test the L-RadSet detection frameworks on the following environment:
 * Python 3.8.16
 * Ubuntu 18.04
 * Torch 1.9.1+cu111 or higher
-* CUDA 11.1 or 11.3
+* CUDA 11.1 or higher
 * mmdet3d 1.1.1
 * mmdet 3.0.0rc5
 * mmengine 0.7.4
@@ -301,7 +301,7 @@ python tools/create_data.py l-radset --root-path ./data/l-radset --out-dir ./dat
 ```
 
 2. using 4D radar & image data
-3. ```
+```
 python tools/create_data.py radset --root-path ./data/l-radset --out-dir ./data/l-radset --extra-tag radset
 ```
 
