@@ -25,7 +25,7 @@ L-RadSet includes over 133K high-quality, manually annotated 3D ground bounding 
   <tr>
     <td align="center">
       <figure>
-        <img src="./imgs/example.png" alt="Image 1" width="60%"/>
+        <img src="./imgs/example.png" alt="Image 1" width="100%"/>
       </figure>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Our ego vehicle is equipped with three front-view cameras featuring varying foca
 
 * We analyze the distribution of frames across different weather conditions, times of day, and road types. As visually depicted in Fig. 4(b) and (c), our data collection process involved capturing various weather conditions, such as clear, cloudy, rainy, and foggy scene, as well as different light conditions, ranging from daytime to dusk and nighttime situations. Notably, our dataset includes a significant proportion of nighttime scenes, thereby encompassing more challenging scenarios to develop more robust detection algorithms. Additionally, to cover a comprehensive array of driving scenarios, we meticulously collected data from urban roads, highways, suburban roads, and tunnel scenarios, as presented in Fig. 3(d). This data collection strategy ensures the inclusion of a diverse set of real-world traffic scenes, facilitating the creation of a more comprehensive dataset.
 <div align=center>
-<img src="./imgs/distribution.png"  width="60%"/>
+<img src="./imgs/distribution.png"  width="100%"/>
 </div>
 <p align="center"><font face="Helvetica" size=3.><b>Figure 4. Distribution of sampled cities (a), weather conditions (b), time of day (c), and road types (d) in L-RadSet. Our dataset collects data from two different cities, which encompasses four weather conditions, three light conditions from day to night, and four road types. </b></font></p>
 
@@ -120,7 +120,7 @@ Our ego vehicle is equipped with three front-view cameras featuring varying foca
 * We present various driving scenes in Fig. 5. These scenes encompass typical driving environments such as urban, suburban, and highway, as well as some challenging scenarios like nighttime, adverse weather, and low-light tunnel. As can be seen in Figure 7(d), (e), and (h), the camera is highly affected by light, and the captured images even lack RGB information to observe the object when the light is extremely weak. Therefore, in this scenario, lidar can acquire very tight spatial information, compensating for the camera’s shortcomings. In addition, adverse weather such as fog and rain can also affect image quality to some extent, but the performance degradation is much lower than the effect of low light, as shown in Figure 6(b) and (c). Adverse weather tends to cause the lidar to produce more noise, which affects its detection. In this case, the semantic information of the image and the accurate 3D measurements provided by the 4D radar point cloud can be used to enhance the detection performance.
 
 <div align=center>
-<img src="./imgs/scenarios.png"  width="60%"/>
+<img src="./imgs/scenarios.png"  width="100%"/>
 </div>
 <p align="center"><font face="Helvetica" size=3.><b>Figure 5. The Scene visualization of L-RadSet captured by front 60° camera in different weathers, light conditions and road types. (a) urban clear daytime, (b) suburban light-fog daytime, (c) urban rainy daytime, (d) urban cloudy nighttime, (e) tunnel daytime, (f) suburban cloudy dusk, (g) highway clear daytime, (h) highway cloudy nighttime. </b></font></p>
 
