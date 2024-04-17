@@ -282,7 +282,7 @@ We test the L-RadSet detection frameworks on the following environment:
  git clone https://github.com/crrasjtu/L-RadSet.git
 ```
 
-* Create a conda environment
+* Create a conda environment\
 You can follow the official installation of [mmdetection3d](https://mmdetection3d.readthedocs.io/en/latest/get_started.html) 
 * Note
 1. Change the mmdetection3d version into 1.1.1 before you compile it
