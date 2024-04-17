@@ -1,5 +1,4 @@
 # L-RadSet: A Long-range Multimodal Dataset with 4D Radar for Autonomous Driving and Its Application
-# Abstract
 <p style=""text-align:justify; text-justify:interideograph;">
 A long-range and robust perception system plays a crucial role in advancing research and deployment of autonomous driving. 4D radar, as an emerging range sensor, offers superior resilience to adverse weather conditions than lidar and provides elevation measurement compared to 3D radar. Existing 4D radar datasets, emphasizing robust and multimodal perception, typically combine camera, lidar, and 4D radar. However, they often lack long-range capability due to limited annotations. Furthermore, the configuration of their single short-focus camera fails to effectively match a long-range 4D radar. To overcome these limitations, we present a novel long-range multimodal dataset. It encompasses high-resolution and long-range sensors, including forward-facing cameras, a 360° lidar, and a front-mounted 4D radar, along with detailed annotations for 3D objects. Particularly, our dataset introduces, for the first time, three cameras with different focal lengths, enabling simultaneous capture of images with varying perception ranges. It serves as a valuable resource for developing accurate long-range perception algorithms. Remarkably, our dataset achieves the longest annotation ranges among comparable 4D radar datasets, spanning up to 220 meters. It supports applications such as 3D object detection and tracking, as well as facilitates the study of multimodal tasks. Through rigorous experiments, we validate the efficacy of our dataset and offer valuable insights into long-range 3D object detection. 
 </p>
@@ -305,19 +304,19 @@ python tools/create_data.py radset --root-path ./data/l-radset --out-dir ./data/
 
 * To train the model on single GPU, prepare the total dataset and run
 ```
-python train.py cfg_file ${CONFIG_FILE}
+python train.py ${CONFIG_FILE}
 ```
 * To train the model on multi-GPUs, prepare the total dataset and run
 ```
-tools/dist_train.sh cfg_file ${CONFIG_FILE} num_gpus ${NUM_GPUS} 
+tools/dist_train.sh ${CONFIG_FILE} ${NUM_GPUS} 
 ```
 * To evaluate the model on single GPU, modify the path and run
 ```
-python test.py cfg_file ${CONFIG_FILE} ckpt ${CKPT}
+python test.py ${CONFIG_FILE} ${CKPT}
 ```
 * To evaluate the model on multi-GPUs, modify the path and run
 ```
-tools/dist_train.sh cfg_file ${CONFIG_FILE} ckpt ${CKPT} num_gpus ${NUM_GPUS} 
+tools/dist_train.sh ${CONFIG_FILE} ${CKPT} ${NUM_GPUS} 
 ```
 
 # 8. Experiment results
