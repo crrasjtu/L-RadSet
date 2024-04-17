@@ -333,6 +333,7 @@ tools/dist_train.sh cfg_file ${CONFIG_FILE} ckpt ${CKPT} num_gpus ${NUM_GPUS}
         <td colspan="1" align=center>mATE</td>
         <td rowspan="1" align=center>mASE(1-IoU)</td>
         <td rowspan="1" align=center>mAOE</td>
+        <td rowspan="1" align=center>ckpts</td>
     </tr>
     <tr align=center>
         <td rowspan="2">DETR3D</td> 
@@ -342,6 +343,7 @@ tools/dist_train.sh cfg_file ${CONFIG_FILE} ckpt ${CKPT} num_gpus ${NUM_GPUS}
         <td>0.821</td>
         <td>0.213</td>
         <td>0.300</td>
+        <td><a href="https://drive.google.com/file/d/1Jkm6kPf1pyjuhZiVNJ7hKGvsbAEQvP9r/view?usp=sharing">model</a></td>
     </tr>
     <tr align=center>
         <td>C1, C2</td>
@@ -350,6 +352,7 @@ tools/dist_train.sh cfg_file ${CONFIG_FILE} ckpt ${CKPT} num_gpus ${NUM_GPUS}
         <td>0.757</td>
         <td>0.207</td>
         <td>0.278</td>
+        <td><a href="https://drive.google.com/file/d/1iq5h5IqyNveNfIJe0Ua8fwyYi5aygDk2/view?usp=sharing">model</a></td>
     </tr>
     <tr align=center>
         <td rowspan="1">PointPillars</td> 
@@ -359,6 +362,7 @@ tools/dist_train.sh cfg_file ${CONFIG_FILE} ckpt ${CKPT} num_gpus ${NUM_GPUS}
         <td>0.303</td>
         <td>0.198</td>
         <td>0.360</td>
+        <td><a href="https://drive.google.com/file/d/1ztdeQNoOcIXPHRganyAexk_hx_MrJyrf/view?usp=sharing">model</a></td>
     </tr>
     <tr align=center>
         <td rowspan="1">SECOND</td> 
@@ -368,6 +372,7 @@ tools/dist_train.sh cfg_file ${CONFIG_FILE} ckpt ${CKPT} num_gpus ${NUM_GPUS}
         <td>0.280</td>
         <td>0.181</td>
         <td>0.346</td>
+        <td><a href="https://drive.google.com/file/d/1sHkngf_JiodWfc5yaxq3GWRSCT-S7dBb/view?usp=sharing">model</a></td>
     </tr>
       <tr align=center>
         <td rowspan="1">PVRCNN</td> 
@@ -377,6 +382,7 @@ tools/dist_train.sh cfg_file ${CONFIG_FILE} ckpt ${CKPT} num_gpus ${NUM_GPUS}
         <td>0.206</td>
         <td>0.177</td>
         <td>0.315</td>
+        <td><a href="https://drive.google.com/file/d/1vCzgyMGfXaPS4ce733svjhlnsiYZs7Tm/view?usp=sharing">model</a></td>
     </tr>
       <tr align=center>
         <td rowspan="1">PointPillars</td> 
@@ -386,6 +392,7 @@ tools/dist_train.sh cfg_file ${CONFIG_FILE} ckpt ${CKPT} num_gpus ${NUM_GPUS}
         <td>0.604</td>
         <td>0.236</td>
         <td>0.188</td>
+        <td><a href="https://drive.google.com/file/d/1RNWtkgWlBwpsqYPpECd0xins4k-tDLnL/view?usp=sharing">model</a></td>
     </tr>
     <tr align=center>
         <td rowspan="1">SECOND</td> 
@@ -395,6 +402,7 @@ tools/dist_train.sh cfg_file ${CONFIG_FILE} ckpt ${CKPT} num_gpus ${NUM_GPUS}
         <td>0.670</td>
         <td>0.262</td>
         <td>0.331</td>
+        <td><a href="https://drive.google.com/file/d/1IE_em2ITv-ylulnUH6wtJ8ne3rA3lNvq/view?usp=sharing">model</a></td>
     </tr>
       <tr align=center>
         <td rowspan="1">PVRCNN</td> 
@@ -404,6 +412,7 @@ tools/dist_train.sh cfg_file ${CONFIG_FILE} ckpt ${CKPT} num_gpus ${NUM_GPUS}
         <td>0.649</td>
         <td>0.255</td>
         <td>0.302</td>
+        <td><a href="https://drive.google.com/file/d/1O0dInnwu7ix8NbBKY_L72IKdWFXuLMRf/view?usp=sharing">model</a></td>
     </tr>
 </table>
 </div>
