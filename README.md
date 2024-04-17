@@ -320,7 +320,96 @@ python test.py cfg_file ${CONFIG_FILE} ckpt ${CKPT}
 tools/dist_train.sh cfg_file ${CONFIG_FILE} ckpt ${CKPT} num_gpus ${NUM_GPUS} 
 ```
 
-# 8. Acknowledgement
+# 8. Experiment results
+1. 3D object detection 
+<div align=center>
+<p align="center"><font face="Helvetica" size=3.><b>Table 2. Experimental results of all baselines in 3D object detection</b></font></p>
+<table>
+     <tr align=center>
+        <td rowspan="1">Baselines</td> 
+        <td rowspan="1" align=center>Sensor</td> 
+        <td colspan="1" align=center>mAP</td>
+        <td colspan="1" align=center>CDS</td>
+        <td colspan="1" align=center>mATE</td>
+        <td rowspan="1" align=center>mASE(1-IoU)</td>
+        <td rowspan="1" align=center>mAOE</td>
+    </tr>
+    <tr align=center>
+        <td rowspan="2">DETR3D</td> 
+        <td>C1</td>
+        <td>0.426</td>
+        <td>0.515</td>
+        <td>0.821</td>
+        <td>0.213</td>
+        <td>0.300</td>
+    </tr>
+    <tr align=center>
+        <td>C1, C2</td>
+        <td>0.451</td>
+        <td>0.524</td>
+        <td>0.757</td>
+        <td>0.207</td>
+        <td>0.278</td>
+    </tr>
+    <tr align=center>
+        <td rowspan="1">PointPillars</td> 
+        <td>L</td>
+        <td>0.648</td>
+        <td>0.681</td>
+        <td>0.303</td>
+        <td>0.198</td>
+        <td>0.360</td>
+    </tr>
+    <tr align=center>
+        <td rowspan="1">SECOND</td> 
+        <td>L</td>
+        <td>0.653</td>
+        <td>0.692</td>
+        <td>0.280</td>
+        <td>0.181</td>
+        <td>0.346</td>
+    </tr>
+      <tr align=center>
+        <td rowspan="1">PVRCNN</td> 
+        <td>L</td>
+        <td>0.680</td>
+        <td>0.724</td>
+        <td>0.206</td>
+        <td>0.177</td>
+        <td>0.315</td>
+    </tr>
+      <tr align=center>
+        <td rowspan="1">PointPillars</td> 
+        <td>R</td>
+        <td>0.403</td>
+        <td>0.517</td>
+        <td>0.604</td>
+        <td>0.236</td>
+        <td>0.188</td>
+    </tr>
+    <tr align=center>
+        <td rowspan="1">SECOND</td> 
+        <td>R</td>
+        <td>0.324</td>
+        <td>0.451</td>
+        <td>0.670</td>
+        <td>0.262</td>
+        <td>0.331</td>
+    </tr>
+      <tr align=center>
+        <td rowspan="1">PVRCNN</td> 
+        <td>R</td>
+        <td>0.351</td>
+        <td>0.475</td>
+        <td>0.649</td>
+        <td>0.255</td>
+        <td>0.302</td>
+    </tr>
+</table>
+</div>
+
+
+# 9. Acknowledgement
 1. Many thanks to the following open-source projects:
 * [mmdetection3d](https://github.com/open-mmlab/mmdetection3d)
 * [DETR3D](https://github.com/WangYueFt/detr3d)
