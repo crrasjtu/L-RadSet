@@ -10,6 +10,7 @@ A long-range and robust perception system plays a crucial role in advancing rese
 
 # News
 
+<strong>[2024.07.18]  Our work has been accepted as a regular paper by IEEE TIV. [article](#https://ieeexplore.ieee.org/document/10591452). </strong>
 <strong>[2024.04.17]  We have released the dataset download [link](#downloadlink). </strong> 
 
 [2024.04.17] Our Code currently supports some baselines including DETR3D, Pointpillars, Second, and PV-RCNN. 
