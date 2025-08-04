@@ -128,7 +128,7 @@ Our ego vehicle is equipped with three front-view cameras featuring varying foca
 
 <a id="downloadlink"></a>
 # 4. Download Link
-* Our dataset is freely available to researchers. Please download and sign our [agreement](https://drive.google.com/file/d/1Zl9sTGBCUQAH0Kn4_66URL8d9f6tqVWr/view?usp=drive_link) and send it to the provided email address (<b>jzhong_l@163.com, yanglinSJTU@126.com</b>). You will receive the download link within one week.
+* Our dataset is freely available to researchers. Please download and sign our [agreement](https://drive.google.com/file/d/1Zl9sTGBCUQAH0Kn4_66URL8d9f6tqVWr/view?usp=drive_link) and send it to the provided email address (<b>jzhong_l@163.com</b>). You will receive the download link within one week.
 
 * When unzipping the data, please file and organize it by following the format below:
 ```
